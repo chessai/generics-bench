@@ -37,7 +37,8 @@ library
   exposed-modules:
     GenericsBench
   build-depends:
-    , base >= 4.10.1.0 && < 4.13
+    , base >= 4.10.1.0 && < 4.14
+    , random >= 1.1 && < 1.2
   ghc-options:
     -Wall
     -O2
